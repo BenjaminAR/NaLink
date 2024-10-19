@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+.pnpm/
+pnpm-lock.yaml
+
+# Visual Studio Code settings
+.vscode/
+.vscode-test/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+out/
+*.vsix
+
+# Coverage reports
+coverage/
+
+# Miscellaneous
+.DS_Store
+*.tgz
+*.log
+*.lock
+*.tmp

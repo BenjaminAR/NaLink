@@ -1,0 +1,67 @@
+{
+  "name": "nalink",
+  "displayName": "NaLink",
+  "publisher": "Benjamin Avila Rivera.",
+  "description": "Shorten your URLs quickly and easily with NaLink!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+  "vscode",
+  "extension",
+  "url",
+  "shorten",
+  "tinyurl"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.shortenUrl",
+        "title": "NaLink: Shorten URL"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.shortenUrl",
+        "key": "ctrl+shift+alt+s",
+        "when": "editorTextFocus"
+      }
+    ],
+    "configuration": {
+      "title": "NaLink",
+      "properties": {
+        "nalink.accessToken": {
+          "type": "string",
+          "default": "",
+          "description": "Access token for TinyURL API"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "pnpm run lint",
+    "test": "node .\\test\\runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "~20.16.13",
+    "@types/sinon": "^17.0.3",
+    "@types/vscode": "^1.94.0",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^8.57.1",
+    "glob": "^10.4.5",
+    "globals": "^15.11.0",
+    "mocha": "^10.7.3",
+    "sinon": "^19.0.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
