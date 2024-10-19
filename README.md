@@ -20,7 +20,7 @@ NaLink is a Visual Studio Code extension that allows you to quickly and easily s
 ## Usage
 
 1. Select a URL in your editor
-2. Press `Ctrl+Shift+N` (or `Cmd+Shift+N` on macOS) or use the command palette and search for "NaLink: Shorten URL"
+2. Press `ctrl+shift+alt+s` (or `⌘ + Shift + Alt + S` on macOS) or use the command palette and search for "NaLink: Shorten URL"
 3. The selected URL will be replaced with its shortened version
 
 ## Configuration
@@ -38,7 +38,7 @@ To set up the project for development:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/nalink.git
+   git clone https://github.com/BenjaminAR/NaLink.git
    ```
 2. Navigate to the project directory:
    ```
