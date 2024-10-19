@@ -77,7 +77,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you encounter any problems or have any questions, please open an issue on the [GitHub repository](https://github.com/yourusername/nalink/issues).
+If you encounter any problems or have any questions, please open an issue on the [GitHub repository](https://github.com/BenjaminAR/nalink/issues).
 
 Happy URL shortening!
 ---
